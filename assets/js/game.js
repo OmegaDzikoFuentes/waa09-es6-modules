@@ -1,4 +1,8 @@
-class Game {
+import mrsPotatoHead from "./quotes/mrsPotatoHead";
+import { mrPotatoHeadQuotes } from "./quotes/mrPotatoHead";
+import { getIndex } from "./utilities";
+
+export class Game {
 
   start() {
 
@@ -38,4 +42,3 @@ class Game {
     })
   }
 }
-
